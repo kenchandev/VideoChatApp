@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <title>Video Chat Client</title>
+  <meta charset="utf-8">
+  <link type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+  <link type="text/css" href="css/styles.css" rel="stylesheet">
+  <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</head>
+<body>
+  <h1>Video Chat Client</h1>
+
+  <p id="room-name"></p>
+
+  <button id="start-call">Start Call</button>
+  <button id="join-call">Join Call</button>
+
+  <div class="videos">
+    <video class="video local-video" id="local-video" width="200" autoplay muted></video>
+    <video class="video" id="remote-video" width="600" autoplay></video>
+  </div>
+
+  <script src="https://cdn.firebase.com/v0/firebase.js"></script>
+  <script src="js/videochat.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
