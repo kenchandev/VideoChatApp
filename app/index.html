@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <title>Video Chat Client</title>
+  <meta charset="utf-8">
+  <!-- bower:css -->
+  <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.css" />
+  <!-- endbower -->
+  <link type="text/css" href="css/styles.css" rel="stylesheet">
+</head>
+<body>
+  <h1>Video Chat Client</h1>
+
+  <p id="room-name"></p>
+
+  <button id="start-call">Start Call</button>
+  <button id="join-call">Join Call</button>
+
+  <div class="videos">
+    <video class="video local-video" id="local-video" width="200" autoplay muted></video>
+    <video class="video" id="remote-video" width="600" autoplay></video>
+  </div>
+
+  <script src="https://cdn.firebase.com/v0/firebase.js"></script>
+  <script src="js/videochat.js"></script>
+  <script src="js/main.js"></script>
+  <!-- bower:js -->
+  <script src="../bower_components/jquery/dist/jquery.js"></script>
+  <script src="../bower_components/bootstrap/dist/js/bootstrap.js"></script>
+  <!-- endbower -->
+</body>
+</html>
