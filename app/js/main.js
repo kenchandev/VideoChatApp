@@ -13,7 +13,7 @@ var localVideoElement = document.getElementById("local-video"),
   videoChat = new VideoChat({
   // The Firebase database URL for use when loading and saving data to the cloud - create
   // your own personal URL at http://firebase.com
-  firebaseUrl: "https://glaring-fire-9593.firebaseio.com/",
+  firebaseUrl: "https://glaring-heat-9999.firebaseio.com/",
   // When the local webcam and microphone stream is running, set the "src" attribute
   // of the <div id="local-video"> element to display the stream on the page
   onLocalStream: function(streamSrc) {

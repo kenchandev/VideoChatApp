@@ -37,7 +37,7 @@ url: "stun:stun.l.google.com:19302"
 }, {
 // Create your own TURN server at http://numb.viagenie.ca
 url: "turn:numb.viagenie.ca",
-username: "denodell%40gmail.com",
+username: "kchan923@gmail.com",
 credential: "password"
 }]
 },
