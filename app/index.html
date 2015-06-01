@@ -9,12 +9,14 @@
   <link type="text/css" href="css/styles.css" rel="stylesheet">
 </head>
 <body>
-  <h1>Video Chat Client</h1>
+  <h1 id="app-header">Video Chat Client</h1>
 
   <p id="room-name"></p>
 
-  <button id="start-call">Start Call</button>
-  <button id="join-call">Join Call</button>
+  <div id="call-buttons">
+    <button id="start-call" type="button" class="btn btn-primary">Start Call</button>
+    <button id="join-call" type="button" class="btn btn-primary">Join Call</button>
+  </div>
 
   <div class="videos">
     <video class="video local-video" id="local-video" width="200" autoplay muted></video>
